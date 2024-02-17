@@ -151,17 +151,6 @@ A: What is paginated reporting? What is non-paginated reporting?
 	Legacy or traditional or conventional reporting is paginated.
 
 	Non-Paginated: The records (data rows) are not split in this area. Advanced reporting.
-
-
-
-
-
-
-
-
-
-
-
 		
 16. What type of projects you will find with Power BI?
 
@@ -170,10 +159,6 @@ A: What is paginated reporting? What is non-paginated reporting?
 	a) Power BI along with other BI tools:
 
 		In MNCs, you will find combination, because they use for data integration, analysis, and storage differwent 		types of tools, for Reporting Power BI, SSRS, Qlikview etc. components 
-
-
-
-
 	b) Power BI Alone:
 
 		Small and medium enterprizes use PBI for end-end reporting.
