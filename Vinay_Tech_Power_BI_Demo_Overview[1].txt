@@ -1,0 +1,195 @@
+1. How many types of data available in the IT market?
+	3 Types
+	a) Structured b) Semi-structured c) Un-structured
+
+2. How many types of storage formats available in the market?
+	a) File b) Database Tables
+
+3. How many types of storage areas available in the market?
+	a) Cloud b) On-Premise
+
+4. What is BI?
+	Business Intelligence or Intelligent data of business.[ General]
+	It is the process of converting normal data into decision making data.
+
+5. What is the input and output of BI?
+	Input: Any data, Any Where, Any Format
+	Output: Report or Dashboard
+
+6. What is the BI Evolution?
+	Legacy BI[early 1990's]: Multiple tools, resources and setups
+	Middle Age BI: SIngle suite with multiple tools
+	Modern BI: Single application with multiple concepts
+
+7. What is MSBI?
+	Microsoft Business Intelligence : SQL Server BI
+
+	It is the First BI product from Microsoft available as "a SSBI Suite with multiple tools" to perform end-end operation and 		generate 	a report or dashboard.
+
+	a) SSIS: SQL Server Integration Services: Data Integration [ETL or ELT component]
+	b) SSAS: SQL Server Analysis Services: Semantic Model creation [meaningful data preparation]: Cube created
+	c) SSRS: SQL Server Reporting Services: Reports and Dashboards Generation Area 
+	d) DQS: Data Quality Services: To ensure the quality of data before ETL or ELT.
+	e) MDS: Master Data Services: This is for Metadata Management.
+	
+
+	SSBI: The area where we perform extracting data onwards till report generation, that area is called as SSBI area.
+
+	Release year: 2005
+	Versions: 2005, 2008, 2008 R2, 2012, 2014, 2016, 2017, 2019, 2022
+
+8. What is Power  BI?
+	The second generation modern BI component with many features than MSBI.
+	"Powering BI or Adding Power to existing BI"
+	"Power BI is a low-code supporting SSBI cloud and premises application to generate reports and dashboards from data"
+	
+	Release year: July-2013
+	Versions: No specific versions, monthly updates available.	
+
+9. What is Power Platform?
+	A low-code platform to perform various operations.
+	a) Power BI: Reports and Dashboards
+	b) Power Apps: Mobile and Tab friendly apps
+	c) Power Automate: Automated process [RPA: Robotic Process Automation]
+	d) Power Pages: Websites and Web pages
+	e) Virtual Agent: Chotbot creation 
+
+	Release year: 2019
+
+10. What is Microsoft Fabric?
+	An AI based suite with the below components
+	a) Power BI: Reports and Dashboards
+	b) Data Factory: Data Integration
+	c) Synapse: Data Storage and Analytics
+	d) Data Activator: Data Monitoring and Governance
+
+	Release: 2023-July
+
+11. Power BI Components?
+
+	
+
+
+12. One SSBI Example...
+
+
+13.  What is Azure BI?
+
+	Cloud: Somebody else's storage area
+	Types: Storage, Service, Platform etc.
+	
+	Storage clouds: OneDrive, Google Drive etc.
+	Service cloud: Power BI Service, Salesforce, Workday, RedShift etc.
+
+	Azure: A multi-platform cloud with various services [storage, platform, services, infrastructure etc.] and operations
+		[Data Science,BI, AI etc.]
+
+		If a project is using multiple BI components of Azure, then we can consider as Azure BI
+		a) ADF: Azure Data Factory
+		b) AAS: Azure Analysis Services
+		c) Synapse
+		d) Snowflake
+		e) Datawarehouse
+		etc.
+
+	Note: MSBI and Power BI physically available with software name, whereas Azure BI is a logical word and physically not 		available.
+
+
+MSBI--> Power BI--> Azure BI--> Microsoft Fabric
+
+
+14. Diff between Visual and Insight?
+	Visual: Data or Data + Graphical presentation component.
+
+	Insight: Detailed understanding of data [deep dive of data]
+
+15. Difference between report and dashboard?
+	Report: Contains Visuals
+		a) Detailed understanding of data
+		b) An inidividual operation presentation 
+		c) A company may have multiple reports
+		d) General executives and high level resources use reports
+
+	Dashboard: Contains visuals
+		a) High level understanding of data
+		b) A specific subject area data
+		c) Usually company maintains limited dashboards
+		d) Mostly hugh level management team uses 
+
+11. Power BI Components?
+
+	Cloud:
+	a) Power BI Desktop: Report Develoment component [perform end-end SSBI operations] : More options.
+			Non-Paginated report [advanced reporting]
+	b) Power BI Service: Cloud storage and management component: More options
+
+
+	On-Premise:
+
+	a) Power BI Report Server Desktop: Report Develoment component [perform end-end SSBI operations]: Limited options.
+					Non-Paginated report [advanced reporting]
+
+	b) Report Server: On-premise storage and management : Limited options
+
+
+	Additional components:
+	a) Report Builder: To generate paginated reports
+	b) Power BI Developer: To generate custom visuals
+	c)  Power BI Embedding: Placing Power BI in other applications is called as embedding.
+			Ex: Power BI report in share point server
+			Power BI Report in Facebook / company website / blog etc.
+	d) Gateway:	A component which is installed in On-premise area to bring On-premise data to cloud.
+
+		My system file data--->  Gateway---> Power BI Report in the cloud / Power Apps App / Power Automate flow
+
+
+A: What is paginated reporting? What is non-paginated reporting?
+
+	Having a report data in multiple pages, each page having set of records and the pages are printable.
+	Ex: You have 200 records, each page 10 records needed and 20 pages required, each page is printable.
+
+	Legacy or traditional or conventional reporting is paginated.
+
+	Non-Paginated: The records (data rows) are not split in this area. Advanced reporting.
+
+
+
+
+
+
+
+
+
+
+
+		
+16. What type of projects you will find with Power BI?
+
+	You will find two types of projects
+	
+	a) Power BI along with other BI tools:
+
+		In MNCs, you will find combination, because they use for data integration, analysis, and storage differwent 		types of tools, for Reporting Power BI, SSRS, Qlikview etc. components 
+
+
+
+
+	b) Power BI Alone:
+
+		Small and medium enterprizes use PBI for end-end reporting.
+		Data->Extract->Transform->Modeling->Secure->Visuals-> BI Data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
